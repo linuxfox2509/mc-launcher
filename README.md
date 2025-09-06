@@ -1,6 +1,6 @@
 # Minecraft Launcher
 
-This project is a simple Minecraft launcher built in Rust. It provides functionality to start the Minecraft game, manage game profiles, and handle configurations.
+This project is a simple Minecraft launcher built in Rust. It provides functionality to start the Minecraft game, select versions and nothing more
 
 ## Project Structure
 
@@ -8,7 +8,6 @@ This project is a simple Minecraft launcher built in Rust. It provides functiona
 mc-launcher
 ├── src
 │   ├── main.rs          # Entry point of the application
-│   ├── launcher.rs      # Logic for launching the Minecraft game
 │   └── utils.rs         # Utility functions for common tasks
 ├── Cargo.toml           # Configuration file for the Rust project
 └── README.md            # Documentation for the project
@@ -21,10 +20,6 @@ mc-launcher
 3. Navigate to the project directory.
 4. Run `cargo build` to build the project.
 5. Run `cargo run` to execute the launcher.
-
-## Usage
-
-Once the launcher is running, it will provide options to start the Minecraft game and manage profiles. Follow the on-screen instructions to use the launcher effectively.
 
 ## Contributing
 
